@@ -10,6 +10,14 @@
 <p [ngClass]="{redBorder: true}">Is this styled?</p>
 <p [ngClass]="{redBorder: false}">Is this styled?</p>
 <p [ngClass]="{redBorder: onTest()}">Is this styled?</p>
-
-
 <p [ngStyle]="{color: 'green', border: '5px solid red'}">Is this styled?</p>
+<hr>
+<h3>Custom Propery Binding</h3>
+<fa-property-binding [result]="10"></fa-property-binding>
+<hr>
+<h1>Event Binding</h1>
+<fa-event-binding (clicked)="OnClicked($event)"></fa-event-binding>
+<hr>
+<h1>Two-way data binding</h1>
+<fa-two-way-binding></fa-two-way-binding>
+<br><br>

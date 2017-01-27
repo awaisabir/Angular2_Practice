@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { DatabindingComponent } from './databinding';
 
 @Component({
   selector: 'app-root',
